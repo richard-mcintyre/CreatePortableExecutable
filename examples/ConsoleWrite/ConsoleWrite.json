@@ -1,0 +1,27 @@
+{
+    "Code": {
+      "AddressRVA": "0x1000",
+      "Content": "ConsoleWrite.bin"
+    },
+  
+    "Data": {
+      "AddressRVA": "0x2000",
+      "Content": "ConsoleWrite.data"
+    },
+  
+    "Imports": {
+      "AddressRVA": "0x3000",
+      "Libraries": [
+        {
+          "Name": "KERNEL32.dll",
+          "Functions": [
+            "GetCurrentProcess",
+            "GetStdHandle",
+            "Sleep",
+            "TerminateProcess",
+            "WriteFile"
+          ]
+        }
+      ]
+    }
+  }

@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ConsoleWrite": {
+      "commandName": "Project",
+      "commandLineArgs": "ConsoleWrite.json ConsoleWrite.exe",
+      "workingDirectory": "..\\examples\\ConsoleWrite"
+    }
+  }
+}
